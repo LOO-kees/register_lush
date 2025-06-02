@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* 메인서식 */
+
+/*
+.creat{padding:0px 1%}
+.creat p{
+  font-size: 1.3rem;
+  line-height: 40px;
+}
+.creat label{
+  display: inline-block;
+  font-weight: bold;
+}
+*/
+
+.create {
+  /* 1. flex → column 방향으로 세로 정렬 */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  /* 기존 스타일 유지 */
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.create label {
+  /* display: flex;
+  flex-direction: column;
+  font-size: 0.9rem; */
+}
+
+.create input {
+  width: 100%;
+  box-sizing: border-box; /* 이거 안하면 product-container 밖으로 나간다. */
+  margin-top: 6px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.create button {
+  /* flex item 이므로 그냥 아래 위치 */
+  padding: 10px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* align-self: start; 원하면 왼쪽 정렬 이거 안하면 전체 가로 영역을 차지한다. */
+}
+
+
+.product_list{
+  margin-bottom: 0px auto 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.product_list > li{
+  width: 48.4%;
+  display: inline-block;
+  margin: 0px 1.6% 30px 0px;
+  box-sizing: border-box;
+}
+
+.product_list img{
+  width: 100%;
+  transition: 0.3s;
+}
+
+.product_list img:hover{
+  filter: brightness(1.2);
+}
+
+.product_list ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+

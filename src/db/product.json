@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "image":"LUSH_pic_01.jpg",
+    "name":"펑카왈롭 45g - 매트 헤어 클레이",
+    "price":"23000"
+  },
+  {
+    "id":2,
+    "image":"LUSH_pic_02.jpg",
+    "name":"스티키 데이츠 200ml - 바디 스프레이",
+    "price":"70000"
+  },
+  {
+    "id":3,
+    "image":"LUSH_pic_03.jpg",
+    "name":"[LIMITED]아보 커들 145g - 버블 바/입욕제/마더스",
+    "price":"20000"
+  },
+  {
+    "id":4,
+    "image":"LUSH_pic_04.jpg",
+    "name":"[숀더쉽 x 러쉬]모씨 바텀 200ml - 바디 스프레이",
+    "price":"90000"
+  },
+  {
+    "id":5,
+    "image":"LUSH_pic_05.jpg",
+    "name":"[숀더쉽 x 러쉬]너티 피그스 155g - 샤워 젤리/바디 워시",
+    "price":"30000"
+  },
+  {
+    "id":6,
+    "image":"LUSH_pic_06.jpg",
+    "name":"[숀더쉽 x 러쉬]슬리피 티미 100g - 버블 바/입욕제",
+    "price":"19000"
+  },
+  {
+    "id":7,
+    "image":"LUSH_pic_07.jpg",
+    "name":"[숀더쉽 x 러쉬]트러블섬 트랙터 90g - 솝/비누",
+    "price":"18000"
+  },
+  {
+    "id":8,
+    "image":"LUSH_pic_08.jpg",
+    "name":"[LIMITED]맘 - 기프트/마더스",
+    "price":"60000"
+  },
+  {
+    "id":9,
+    "image":"LUSH_pic_09.jpg",
+    "name":"[LIMITED]워시 비하인드 유어 이어즈 550g - 샤워 젤/바디 워시/이스터에디션",
+    "price":"73000"
+  },
+  {
+    "id":10,
+    "image":"LUSH_pic_10.jpg",
+    "name":"[LIMITED]스위트 스터프 - 기프트/이스터에디션",
+    "price":"37000"
+  }
+]

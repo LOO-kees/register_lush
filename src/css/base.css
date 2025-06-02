@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+:root{
+  --base_color:#333;
+  --base_font_size:12px;
+}
+
+*{margin: 0px; padding: 0px;}
+ol,ul,li{list-style: none;}
+body{
+  font-family: '맑은 고딕',Arial, sans-serif;
+  font-size: var(--base_font_size);
+  color: var(--base_font_size);
+}
+a{text-decoration: none;color: var(--base_color);}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 공통서식 common header, footer*/
+
+header{
+  line-height: 60px;
+  text-align: center;
+}
+
+header h1 img{width: 160px;}
+
+footer{
+  clear: both;
+  background: var(--base_color);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+footer > address{font-style: normal;}
